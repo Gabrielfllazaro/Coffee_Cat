@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cards3ViewActivity"
+    android:layout_margin="50dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_5" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Brott Shirvani"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="06/08/25"
+                android:textSize="15dp"
+                android:layout_marginStart="650px"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Revolutionary"
+                android:textSize="40dp"
+                android:layout_marginTop="200px"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prototyping Techniques"
+                android:textSize="20dp"
+                android:layout_marginTop="330px"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="10dp" />
+
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_6" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Charlie Daniel"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="06/08/25"
+                android:textSize="15dp"
+                android:layout_marginStart="650px"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="When Motion Creates"
+                android:textSize="30dp"
+                android:layout_marginTop="200px"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Emotion"
+                android:textSize="20dp"
+                android:layout_marginTop="300px"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="10dp" />
+
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_7" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Roy Grant"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="06/08/25"
+                android:textSize="15dp"
+                android:layout_marginStart="650px"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ux Design Pratices:"
+                android:textSize="30dp"
+                android:layout_marginTop="200px"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Scanable Content"
+                android:textSize="20dp"
+                android:layout_marginTop="300px"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="10dp" />
+
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
