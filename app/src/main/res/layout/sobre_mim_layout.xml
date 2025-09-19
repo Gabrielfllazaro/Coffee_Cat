@@ -26,33 +26,33 @@
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src="@drawable/img_8"
+                android:layout_marginLeft="40px"
                 android:layout_marginTop="500px"
-                android:layout_marginLeft="40px"/>
+                android:src="@drawable/img_8" />
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
                 android:layout_marginTop="450px"
                 android:padding="30dp"
                 android:text="Brett Shirvani"
                 android:textColor="#FFFFFF"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="60dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
                 android:layout_marginTop="530px"
                 android:padding="30dp"
                 android:text="UI UX Designer 06 Setembro"
                 android:textColor="#FFFFFF"
-                android:textSize="15dp"
-                android:layout_marginLeft="60dp"/>
+                android:textSize="15dp" />
 
 
             <TextView
@@ -95,27 +95,54 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="80px"
                 android:text="HEADER"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:padding="80px"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci vel metus lacinia, at auctor dui dictum. Integer nec ante sed elit placerat facilisis. Sed sollicitudin eros et magna eleifend, id mollis turpis faucibus. Fusce eget lacinia ante, et luctus turpis. Ut a tortor nec elit volutpat vulputate. Cras tincidunt, nulla at aliquet faucibus, metus ante luctus lorem, vitae faucibus augue mi eget est. Maecenas ac magna vitae nulla efficitur malesuada. Morbi maximus erat in erat cursus, sed pharetra leo condimentum. Aliquam erat volutpat. Donec ac nulla sit amet nisi ullamcorper fringilla."
-                android:textSize="15dp"
                 android:layout_marginTop="0dp"
                 android:padding="40dp"
-                />
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada orci vel metus lacinia, at auctor dui dictum. Integer nec ante sed elit placerat facilisis. Sed sollicitudin eros et magna eleifend, id mollis turpis faucibus. Fusce eget lacinia ante, et luctus turpis. Ut a tortor nec elit volutpat vulputate. Cras tincidunt, nulla at aliquet faucibus, metus ante luctus lorem, vitae faucibus augue mi eget est. Maecenas ac magna vitae nulla efficitur malesuada. Morbi maximus erat in erat cursus, sed pharetra leo condimentum. Aliquam erat volutpat. Donec ac nulla sit amet nisi ullamcorper fringilla."
+                android:textSize="15dp" />
 
-            <Button
-                android:layout_width="140dp"
-                android:layout_height="40dp"
-                android:backgroundTint="#26B4A3"
-                android:text="+ Follow"
-                android:layout_marginLeft="60dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:backgroundTint="#26B4A3"
+                    android:text="+ Follow"
+                    android:layout_marginRight="50dp" />
+
+                <ImageView
+                    android:id="@+id/Imgheart"
+                    android:layout_width="58dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/heart" />
+
+                <ImageView
+                    android:id="@+id/ImgSalva"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/perfil" />
+
+
+                <ImageView
+                    android:id="@+id/ImgComp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/share" />
+
+            </LinearLayout>
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>

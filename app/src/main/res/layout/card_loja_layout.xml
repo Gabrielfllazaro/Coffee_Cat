@@ -35,7 +35,7 @@
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
                 android:padding="20dp"
-                android:fontFamily="@font/loki"/>
+                android:fontFamily="@font/lokicoca"/>
 
             <TextView
                 android:layout_width="wrap_content"
